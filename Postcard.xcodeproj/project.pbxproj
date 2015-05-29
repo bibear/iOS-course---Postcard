@@ -13,6 +13,8 @@
 		15DC29471B179E8B00EDA6D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DC29461B179E8B00EDA6D1 /* Images.xcassets */; };
 		15DC294A1B179E8B00EDA6D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DC29481B179E8B00EDA6D1 /* LaunchScreen.xib */; };
 		15DC29561B179E8C00EDA6D1 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC29551B179E8C00EDA6D1 /* PostcardTests.swift */; };
+		15DC29601B17A64E00EDA6D1 /* 1431689205627163.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DC295F1B17A64E00EDA6D1 /* 1431689205627163.jpg */; };
+		15E26E941B191C8C00C4B61D /* 1431754755163303.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15E26E931B191C8C00C4B61D /* 1431754755163303.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		15DC294F1B179E8C00EDA6D1 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DC29541B179E8C00EDA6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DC29551B179E8C00EDA6D1 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		15DC295F1B17A64E00EDA6D1 /* 1431689205627163.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1431689205627163.jpg; sourceTree = "<group>"; };
+		15E26E931B191C8C00C4B61D /* 1431754755163303.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1431754755163303.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		15DC293D1B179E8B00EDA6D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15E26E931B191C8C00C4B61D /* 1431754755163303.jpg */,
+				15DC295F1B17A64E00EDA6D1 /* 1431689205627163.jpg */,
 				15DC293E1B179E8B00EDA6D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					15DC29391B179E8B00EDA6D1 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9Q7HYEAGSD;
 					};
 					15DC294E1B179E8C00EDA6D1 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -192,9 +199,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E26E941B191C8C00C4B61D /* 1431754755163303.jpg in Resources */,
 				15DC29451B179E8B00EDA6D1 /* Main.storyboard in Resources */,
 				15DC294A1B179E8B00EDA6D1 /* LaunchScreen.xib in Resources */,
 				15DC29471B179E8B00EDA6D1 /* Images.xcassets in Resources */,
+				15DC29601B17A64E00EDA6D1 /* 1431689205627163.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +422,7 @@
 				15DC295B1B179E8C00EDA6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15DC295C1B179E8C00EDA6D1 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +431,7 @@
 				15DC295E1B179E8C00EDA6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
